@@ -137,14 +137,6 @@ npm run dev
 http://localhost:5173/
 ```
 
----
-
-## 📸 **Screenshots**
-
-(Add your own screenshots here if required)
-
----
-
 ## 📜 **License**
 
 This project is for educational use under PLP Training.
