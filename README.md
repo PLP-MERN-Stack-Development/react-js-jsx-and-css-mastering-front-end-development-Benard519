@@ -1,70 +1,159 @@
-# React.js and Tailwind CSS Assignment
+---
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+# **React App – Week 3 Assignment**
 
-## Assignment Overview
+A modern React application built using **Vite, TypeScript, Tailwind CSS, React Router, and custom reusable components**, demonstrating component architecture, hooks, local storage, API integration, and responsive UI design.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+---
 
-## Getting Started
+## 🚀 **Project Overview**
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+This project showcases multiple key concepts from modern front-end development:
 
-## Files Included
+* Reusable **Card** and **Button** components
+* Global **Theme Context** for dark/light mode
+* A **Task Manager** with local storage persistence
+* **API Data Explorer** fetching posts from JSONPlaceholder
+* Routing using **React Router**
+* Clean UI styled fully with **Tailwind CSS**
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+## 🧩 **Features**
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+### ✔ **1. Task Manager**
 
-## Project Structure
+* Add, delete, and toggle tasks
+* Filter tasks by "All / Completed / Pending"
+* Tasks are stored in **localStorage** using a custom hook (`useLocalStorage`)
+
+---
+
+### ✔ **2. API Data Explorer**
+
+* Fetches posts from:
+  `https://jsonplaceholder.typicode.com/posts`
+* Supports:
+
+  * Search by title/content
+  * Pagination
+  * Loading and error states
+
+---
+
+### ✔ **3. Component Architecture**
+
+Includes reusable UI components:
+
+* `<Button />`
+* `<Card />`
+* `<Navbar />`
+* `<Footer />`
+* `<Layout />`
+
+---
+
+### ✔ **4. Modern Styling with Tailwind CSS**
+
+* Fully responsive
+* Supports dark mode
+* Uses elegant utility-first classes
+
+---
+
+### ✔ **5. TypeScript Support**
+
+* Strong typing for components, hooks, and API response objects
+* Safer, cleaner code
+
+---
+
+## 📁 **Project Structure**
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+│── components/
+│    ├── Button.tsx
+│    ├── Card.tsx
+│    ├── Layout.tsx
+│    ├── Navbar.tsx
+│    └── Footer.tsx
+│
+│── pages/
+│    ├── Home.tsx
+│    ├── Tasks.tsx
+│    └── ApiData.tsx
+│
+│── hooks/
+│    └── useLocalStorage.ts
+│
+│── context/
+│    └── ThemeContext.tsx
+│
+│── App.tsx
+│── main.tsx
+│── index.css
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 🛠 **Technologies Used**
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+* **React 18**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **React Router**
+* **Lucide Icons**
+* **LocalStorage API**
+* **JSONPlaceholder REST API**
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## ⚙️ **How to Run the Project Locally**
+
+### **1. Clone the repository**
+
+```sh
+git clone <your-repository-url>
+cd project
+```
+
+### **2. Install dependencies**
+
+```sh
+npm install
+```
+
+### **3. Start the development server**
+
+```sh
+npm run dev
+```
+
+### **4. Open in browser**
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 📸 **Screenshots**
+
+(Add your own screenshots here if required)
+
+---
+
+## 📜 **License**
+
+This project is for educational use under PLP Training.
+
+---
+
+## 🙌 **Author**
+
+Benard Machuka
+Week 3 React Assignment – PLP Software Development Program
+
+---
