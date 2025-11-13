@@ -137,6 +137,8 @@ npm run dev
 http://localhost:5173/
 ```
 
+---
+
 ## 📜 **License**
 
 This project is for educational use under PLP Training.
